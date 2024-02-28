@@ -18,8 +18,8 @@ pipeline {
             steps {
                 checkout([$class: 'GitSCM',
                        branches: [[name: '*/main']],
-                       userRemoteConfigs: [[url: 'https://github.com/jaintpharsha/applications.git',
-                       credentialsId: 'github']]])
+                       userRemoteConfigs: [[url: 'https://github.com/Subrto/git_jenkins.git',
+                       credentialsId: 'Nishant']]])
             }
         }
 
